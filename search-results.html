@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Results - Cantor College</title>
+  <link rel="stylesheet" href="Styles/desktop.css" media="screen and (min-width: 769px)">
+  <link rel="stylesheet" href="Styles/mobile.css" media="screen and (max-width: 768px)">
+</head>
+<body>
+  <nav>
+    <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="course-list.html">Course List</a></li>
+            <li><a href="learning-resources.html">Resources</a></li>
+            <li><a href="for-staff.html">Staff Info</a></li>
+            <li><a href="for-student.html">Student Info</a></li>
+            <li><a href="for-business.html">Business Info</a></li>
+    </ul>
+    <form id="search-form" action="JS/search-results.js" method="get">
+      <input type="text" id="search-query" name="q" placeholder="Search..." required>
+      <button type="submit">Search</button>
+    </form>
+  </nav>
+  <header>
+    <div class="logo">
+      <img src="Images/logo.webp" alt="Cantor College Logo" style="max-width: 100px; height: auto;">
+    </div>
+    <h1>Search Results</h1>
+  </header>
+  <main>
+    <div id="results"></div>
+  </main>
+  <footer>
+    <p>&copy; 2025 Cantor College.</p>
+  </footer>
+  <script src="JS/search-results.js"></script>
+</body>
+</html>

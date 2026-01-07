@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course List - Cantor College</title>
+    <link rel="stylesheet" href="Styles/desktop.css" media="screen and (min-width: 769px)">
+    <link rel="stylesheet" href="Styles/mobile.css" media="screen and (max-width: 768px)">
+  </head>
+  <script src="JS/search-results.js"></script>
+  <body>
+    <nav>
+      <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="course-list.html">Course List</a></li>
+            <li><a href="learning-resources.html">Resources</a></li>
+            <li><a href="for-staff.html">Staff Info</a></li>
+            <li><a href="for-student.html">Student Info</a></li>
+            <li><a href="for-business.html">Business Info</a></li>
+      </ul>
+      <form id="search-form" action="search-results.html" method="get">
+        <input type="text" id="search-query" name="q" placeholder="Search..." required>
+        <button type="submit">Search</button>
+      </form>         
+  </nav>  
+    <header>
+      <div class="logo">
+        <img src="images/logo.webp" alt="Cantor College Logo">
+      </div>
+      <div class="header-content">
+        <h1>Cantor College</h1>
+      </div>
+    </header>
+    <main>
+      <div id="results"></div>
+      <section>
+        <h2>Course List</h2>
+        <table>
+          <thead>
+            <tr>
+              <td data-label="Course Title">Course Title</td>
+              <td data-label="Course Type">Course Type</td>
+              <td data-label="Course Summary">Course Summary</td>
+              <td data-label="Course Award Name">Course Award Name</td>
+              <td data-label="UCAS Code">UCAS Code</td>
+              <td data-label="UCAS Points">UCAS Points</td>
+              <td data-label="Year of Entry">Year of Entry</td>
+              <td data-label="Mode of Attendance">Mode of Attendance</td>
+              <td data-label="Study Length">Study Length</td>
+              <td data-label="Has Foundation Year">Has Foundation Year</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="Course Title">Computing</td>
+              <td data-label="Course Type">Undergraduate</td>
+              <td data-label="Course Summary">Learn how to code, configure and integrate applications, databases and systems architectures.</td>
+              <td data-label="Course Award Name">BSc (Honours)</td>
+              <td data-label="UCAS Code">G504</td>
+              <td data-label="UCAS Points">112</td>
+              <td data-label="Year of Entry">2026/27</td>
+              <td data-label="Mode of Attendance">Full-time</td>
+              <td data-label="Study Length">3 / 4 Years</td>
+              <td data-label="Has Foundation Year">FALSE</td>
+            </tr>
+            <tr>
+              <td data-label="Course Title">Computer Networks</td>
+              <td data-label="Course Type">Undergraduate</td>
+              <td data-label="Course Summary">Includes general computing skills in programming, cyber security, and information systems.</td>
+              <td data-label="Course Award Name">BSc (Honours)</td>
+              <td data-label="UCAS Code">G420</td>
+              <td data-label="UCAS Points">112</td>
+              <td data-label="Year of Entry">2026/27</td>
+              <td data-label="Mode of Attendance">Full-time</td>
+              <td data-label="Study Length">3 / 4 Years</td>
+              <td data-label="Has Foundation Year">FALSE</td>
+            </tr>
+            <tr>
+              <td data-label="Course Title">Cyber Security with Forensics</td>
+              <td data-label="Course Type">Undergraduate</td>
+              <td data-label="Course Summary">Prepare for a career in cyber security by designing security systems and identifying evidence of cybercrimes.</td>
+              <td data-label="Course Award Name">BSc (Honours)</td>
+              <td data-label="UCAS Code">F4G4</td>
+              <td data-label="UCAS Points">112</td>
+              <td data-label="Year of Entry">2026/27</td>
+              <td data-label="Mode of Attendance">Full-time</td>
+              <td data-label="Study Length">3 / 4 Years</td>
+              <td data-label="Has Foundation Year">FALSE</td>
+            </tr>
+            <tr>
+              <td data-label="Course Title">Computer Science for Games</td>
+              <td data-label="Course Type">Undergraduate</td>
+              <td data-label="Course Summary">Create the software powering the next generation of blockbuster games.</td>
+              <td data-label="Course Award Name">BSc (Honours)</td>
+              <td data-label="UCAS Code">G611</td>
+              <td data-label="UCAS Points">112</td>
+              <td data-label="Year of Entry">2026/27</td>
+              <td data-label="Mode of Attendance">Full-time</td>
+              <td data-label="Study Length">3 / 4 Years</td>
+              <td data-label="Has Foundation Year">FALSE</td>
+            </tr>
+            <tr>
+              <td data-label="Course Title">Software Engineering</td>
+              <td data-label="Course Type">Undergraduate</td>
+              <td data-label="Course Summary">Gain experience in the whole software development process and prepare for a career in software engineering.</td>
+              <td data-label="Course Award Name">BEng (Honours)</td>
+              <td data-label="UCAS Code">G600</td>
+              <td data-label="UCAS Points">112</td>
+              <td data-label="Year of Entry">2026/27</td>
+              <td data-label="Mode of Attendance">Full-time</td>
+              <td data-label="Study Length">3 / 4 Years</td>
+              <td data-label="Has Foundation Year">FALSE</td>
+            </tr>
+            <tr>
+              <td data-label="Course Title">Computer Science</td>
+              <td data-label="Course Type">Undergraduate</td>
+              <td data-label="Course Summary">Gain a solid foundation in the core areas of computer science, including programming, algorithms, and data structures.</td>
+              <td data-label="Course Award Name">BSc (Honours)</td>
+              <td data-label="UCAS Code">G400</td>
+              <td data-label="UCAS Points">112</td>
+              <td data-label="Year of Entry">2026/27</td>
+              <td data-label="Mode of Attendance">Full-time</td>
+              <td data-label="Study Length">3 / 4 Years</td>
+              <td data-label="Has Foundation Year">FALSE</td>
+            </tr>
+            <tr>
+              <td data-label="Course Title">Computing with Foundation Year</td>
+              <td data-label="Course Type">Undergraduate</td>
+              <td data-label="Course Summary">Gain a degree in computing – with an initial foundation year to prepare for the course.</td>
+              <td data-label="Course Award Name">BSc (Honours)</td>
+              <td data-label="UCAS Code">A020</td>
+              <td data-label="UCAS Points">80</td>
+              <td data-label="Year of Entry">2026/27</td>
+              <td data-label="Mode of Attendance">Full-time</td>
+              <td data-label="Study Length">4 / 5 Years</td>
+              <td data-label="Has Foundation Year">TRUE</td>
+            </tr>
+            <tr>
+              <td data-label="Course Title">Cyber Security with Forensics with Foundation Year</td>
+              <td data-label="Course Type">Undergraduate</td>
+              <td data-label="Course Summary">Gain a degree in cyber security with forensics, with an initial foundation year to prepare for the course.</td>
+              <td data-label="Course Award Name">BSc (Honours)</td>
+              <td data-label="UCAS Code">A023</td>
+              <td data-label="UCAS Points">80</td>
+              <td data-label="Year of Entry">2026/27</td>
+              <td data-label="Mode of Attendance">Full-time</td>
+              <td data-label="Study Length">4 / 5 Years</td>
+              <td data-label="Has Foundation Year">TRUE</td>
+            </tr>
+            <tr>
+              <td data-label="Course Title">Software Engineering with Foundation Year</td>
+              <td data-label="Course Type">Undergraduate</td>
+              <td data-label="Course Summary">Gain a degree in software engineering, with an initial foundation year to prepare for the course.</td>
+              <td data-label="Course Award Name">BEng (Honours)</td>
+              <td data-label="UCAS Code">A017</td>
+              <td data-label="UCAS Points">80</td>
+              <td data-label="Year of Entry">2026/27</td>
+              <td data-label="Mode of Attendance">Full-time</td>
+              <td data-label="Study Length">4 / 5 Years</td>
+              <td data-label="Has Foundation Year">TRUE</td>
+            </tr>
+            <tr>
+              <td data-label="Course Title">Cyber Security with Foundation Year</td>
+              <td data-label="Course Type">Undergraduate</td>
+              <td data-label="Course Summary">Gain a degree in cyber security – with an initial foundation year to prepare for the course.</td>
+              <td data-label="Course Award Name">BSc (Honours)</td>
+              <td data-label="UCAS Code">A093</td>
+              <td data-label="UCAS Points">80</td>
+              <td data-label="Year of Entry">2026/27</td>
+              <td data-label="Mode of Attendance">Full-time</td>
+              <td data-label="Study Length">4/5 Years</td>
+              <td data-label="Has Foundation Year">TRUE</td>
+            </tr>
+            <tr>
+              <td data-label="Course Title">Information Technology with Business Studies with Foundation Year</td>
+              <td data-label="Course Type">Undergraduate</td>
+              <td data-label="Course Summary">Gain a degree in information technology with business studies, with an initial foundation year to prepare for the course.</td>
+              <td data-label="Course Award Name">BSc (Honours)</td>
+              <td data-label="UCAS Code">A019</td>
+              <td data-label="UCAS Points">80</td>
+              <td data-label="Year of Entry">2026/27</td>
+              <td data-label="Mode of Attendance">Full-time</td>
+              <td data-label="Study Length">4/5 Years</td>
+              <td data-label="Has Foundation Year">TRUE</td>
+            </tr>
+            <tr>
+              <td data-label="Course Title">Computer Science with Foundation Year</td>
+              <td data-label="Course Type">Undergraduate</td>
+              <td data-label="Course Summary">Gain a degree in computer science, with an initial foundation year to prepare for the course.</td>
+              <td data-label="Course Award Name">BSc (Honours)</td>
+              <td data-label="UCAS Code">A022</td>
+              <td data-label="UCAS Points">80</td>
+              <td data-label="Year of Entry">2026/27</td>
+              <td data-label="Mode of Attendance">Full-time</td>
+              <td data-label="Study Length">4/5 Years</td>
+              <td data-label="Has Foundation Year">TRUE</td>
+            </tr>
+            <tr>
+              <td data-label="Course Title">Computer Science for Games with Foundation Year</td>
+              <td data-label="Course Type">Undergraduate</td>
+              <td data-label="Course Summary">Gain a degree in computer science for games, with an initial foundation year to prepare for the course.</td>
+              <td data-label="Course Award Name">BSc (Honours)</td>
+              <td data-label="UCAS Code">A092</td>
+              <td data-label="UCAS Points">80</td>
+              <td data-label="Year of Entry">2026/27</td>
+              <td data-label="Mode of Attendance">Full-time</td>
+              <td data-label="Study Length">4/5 Years</td>
+              <td data-label="Has Foundation Year">TRUE</td>
+            </tr>
+            <tr>
+              <td data-label="Course Title">Graphic Design</td>
+              <td data-label="Course Type">Undergraduate</td>
+              <td data-label="Course Summary">Develop your own creative and innovative approach to graphic design.</td>
+              <td data-label="Course Award Name">BA (Honours)</td>
+              <td data-label="UCAS Code">W210</td>
+              <td data-label="UCAS Points">112</td>
+              <td data-label="Year of Entry">2026/27</td>
+              <td data-label="Mode of Attendance">Full-time</td>
+              <td data-label="Study Length">3 / 4 Years</td>
+              <td data-label="Has Foundation Year">FALSE</td>
+            </tr>
+            <tr>
+              <td data-label="Course Title">Business and Digital Technology with Foundation Year</td>
+              <td data-label="Course Type">Undergraduate</td>
+              <td data-label="Course Summary">Gain a degree in business and digital communications technology – with an initial foundation year to prepare for the course.</td>
+              <td data-label="Course Award Name">BSc (Honours)</td>
+              <td data-label="UCAS Code">A018</td>
+              <td data-label="UCAS Points">80</td>
+              <td data-label="Year of Entry">2026/27</td>
+              <td data-label="Mode of Attendance">Full-time</td>
+              <td data-label="Study Length">4/5 Years</td>
+              <td data-label="Has Foundation Year">TRUE</td>
+            </tr>
+            <tr>
+              <td data-label="Course Title">Computing</td>
+              <td data-label="Course Type">Postgraduate</td>
+              <td data-label="Course Summary">A course enhanced by real-life project experience for non-computing graduates wanting to pursue a career in the IT industry.</td>
+              <td data-label="Course Award Name">MSc</td>
+              <td data-label="UCAS Code"></td>
+              <td data-label="UCAS Points"></td>
+              <td data-label="Year of Entry">2026/27</td>
+              <td data-label="Mode of Attendance">Part-time</td>
+              <td data-label="Study Length">3 Years</td>
+              <td data-label="Has Foundation Year">FALSE</td>
+            </tr>
+            <tr>
+              <td data-label="Course Title">Computing and Informatics</td>
+              <td data-label="Course Type">Postgraduate</td>
+              <td data-label="Course Summary">Conduct a period of intensive, supervised study where you critically investigate and evaluate an approved topic and make an original contribution to knowledge.</td>
+              <td data-label="Course Award Name">MPhil</td>
+              <td data-label="UCAS Code"></td>
+              <td data-label="UCAS Points"></td>
+              <td data-label="Year of Entry">2026/27</td>
+              <td data-label="Mode of Attendance">Part-time</td>
+              <td data-label="Study Length">3 Years</td>
+              <td data-label="Has Foundation Year">FALSE</td>
+            </tr>
+            <tr>
+              <td data-label="Course Title">Cyber Security</td>
+              <td data-label="Course Type">Postgraduate</td>
+              <td data-label="Course Summary">Develop your skills and academic knowledge in the growing field of cyber security through academic teaching, industry input and practical skills development.</td>
+              <td data-label="Course Award Name">MSc</td>
+              <td data-label="UCAS Code"></td>
+              <td data-label="UCAS Points"></td>
+              <td data-label="Year of Entry">2026/27</td>
+              <td data-label="Mode of Attendance">Full-time</td>
+              <td data-label="Study Length">1 Year</td>
+              <td data-label="Has Foundation Year">FALSE</td>
+            </tr>
+            <tr>
+              <td data-label="Course Title">Interior Architecture and Design</td>
+              <td data-label="Course Type">Undergraduate</td>
+              <td data-label="Course Summary">Develop your own creative and sustainable approach to interior architecture and design by challenging and exploring contemporary practices through a series of exciting and diverse projects.</td>
+              <td data-label="Course Award Name">BA (Honours)</td>
+              <td data-label="UCAS Code">W250</td>
+              <td data-label="UCAS Points">112</td>
+              <td data-label="Year of Entry">2026/27</td>
+              <td data-label="Mode of Attendance">Full-time</td>
+              <td data-label="Study Length">3 / 4 Years</td>
+              <td data-label="Has Foundation Year">FALSE</td>
+            </tr>
+            <tr>
+              <td data-label="Course Title">Jewellery, Materials and Design</td>
+              <td data-label="Course Type">Undergraduate</td>
+              <td data-label="Course Summary">Develop your own creative and innovative approach to jewellery design, challenging and exploring contemporary practices through new technologies and craft techniques.</td>
+              <td data-label="Course Award Name">BA (Honours)</td>
+              <td data-label="UCAS Code">W721</td>
+              <td data-label="UCAS Points">112</td>
+              <td data-label="Year of Entry">2026/27</td>
+              <td data-label="Mode of Attendance">Full-time</td>
+              <td data-label="Study Length">3 / 4 Years</td>
+              <td data-label="Has Foundation Year">FALSE</td>
+            </tr>
+            <tr>
+              <td data-label="Course Title">Game Design and Development</td>
+              <td data-label="Course Type">Undergraduate</td>
+              <td data-label="Course Summary">Study a course with a distinctive, practice-based approach to games design – gaining a diverse skill set and useful experience within the field.</td>
+              <td data-label="Course Award Name">BA (Honours)</td>
+              <td data-label="UCAS Code">A112</td>
+              <td data-label="UCAS Points">112</td>
+              <td data-label="Year of Entry">2026/27</td>
+              <td data-label="Mode of Attendance">Full-time</td>
+              <td data-label="Study Length">3 / 4 Years</td>
+              <td data-label="Has Foundation Year">FALSE</td>
+            </tr>
+            <tr>
+              <td data-label="Course Title">Product Design</td>
+              <td data-label="Course Type">Undergraduate</td>
+              <td data-label="Course Summary">Develop a highly creative approach to producing innovative 'future-facing' products by exploring and challenging design through a series of exciting and diverse projects.</td>
+              <td data-label="Course Award Name">BSc (Honours)</td>
+              <td data-label="UCAS Code">D009</td>
+              <td data-label="UCAS Points">112</td>
+              <td data-label="Year of Entry">2026/27</td>
+              <td data-label="Mode of Attendance">Full-time</td>
+              <td data-label="Study Length">3 / 4 Years</td>
+              <td data-label="Has Foundation Year">FALSE</td>
+            </tr>
+            <tr>
+              <td data-label="Course Title">Product Design</td>
+              <td data-label="Course Type">Undergraduate</td>
+              <td data-label="Course Summary">Develop a creative and innovative approach to product design and service innovation by challenging and exploring contemporary practices through a series of exciting and diverse projects.</td>
+              <td data-label="Course Award Name">BA (Honours)</td>
+              <td data-label="UCAS Code">W240</td>
+              <td data-label="UCAS Points">112</td>
+              <td data-label="Year of Entry">2026/27</td>
+              <td data-label="Mode of Attendance">Full-time</td>
+              <td data-label="Study Length">3 / 4 Years</td>
+              <td data-label="Has Foundation Year">FALSE</td>
+            </tr>
+            <tr>
+              <td data-label="Course Title">Digital Media Production</td>
+              <td data-label="Course Type">Undergraduate</td>
+              <td data-label="Course Summary">Design and produce new media products in film, animation, interactive media, web, apps, VR, cross-media and games.</td>
+              <td data-label="Course Award Name">BA (Honours)</td>
+              <td data-label="UCAS Code">W212</td>
+              <td data-label="UCAS Points">112</td>
+              <td data-label="Year of Entry">2026/27</td>
+              <td data-label="Mode of Attendance">Full-time</td>
+              <td data-label="Study Length">3 / 4 Years</td>
+              <td data-label="Has Foundation Year">FALSE</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+       <section>
+        <div class="facilities-image">
+         <img src="Images/windows4.webp" alt="Cantor Building Balcony Architecture/Sky">
+        </div>
+       </section> 
+      <footer>
+        <p>&copy; 2025 Cantor College</p>
+      </footer>
+      <script src="JS/search-results.js"></script>
+  </body>
+</html>
