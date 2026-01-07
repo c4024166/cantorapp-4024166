@@ -1,0 +1,259 @@
+body {
+  font-family: 'Roboto', 'Open Sans', Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #F5F5F5;
+  color: #2B2B2B;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: #0A437C;
+  color: #FFFFFF;
+  padding: 15px 12px;
+}
+
+header .logo img {
+  max-width: 80px;
+  width: 100%;
+  height: auto;
+}
+
+
+@media screen and (max-width: 768px) {
+  .header-image,
+  .college-image,
+  .artwall-image,
+  .computingroom-image {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  .header-image img,
+  .college-image img,
+  .artwall-image img,
+  .computingroom-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .staffstudent-images {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .staffstudent-image img,
+  .students-image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contact-image img {
+    width: 100%;
+    height: auto;
+    transform: none;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .facilities-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .facilities-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transform: none;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  table {
+    display: block;
+    width: 100%;
+    border: none;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tbody tr {
+    display: block;
+    margin-bottom: 15px;
+    background-color: #FFFFFF;
+    padding: 12px;
+    border-radius: 8px;
+  }
+
+  tbody td {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+  }
+
+  tbody td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    color: #0A437C;
+  }
+}
+
+.header-content {
+  flex: 1;
+}
+
+header h1 {
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 1.3rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+header .tagline {
+  font-size: 0.9rem;
+}
+
+nav {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  margin: 0;
+  list-style: none;
+}
+
+nav a {
+  color: #0A437C;
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 8px 14px;
+  border-radius: 4px;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: #F5F5F5;
+  text-decoration: underline;
+}
+
+.search-form {
+  display: flex;
+  gap: 6px;
+  max-width: 90%;
+  margin: 10px auto;
+}
+
+.search-form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+}
+
+.search-form button {
+  background-color: #F28B30;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 6px;
+}
+
+.search-form button:hover {
+  background-color: #d97824;
+}
+
+main {
+  padding: 16px;
+}
+
+h2 {
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 1.5rem;
+  color: #0A437C;
+}
+
+h3 {
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 1.3rem;
+  color: #0A437C;
+}
+
+p {
+  font-size: 0.95rem;
+}
+
+.contact-form {
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  width: 100%;
+  background-color: #F28B30;
+  color: #FFFFFF;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.contact-form button:hover {
+  background-color: #d97824;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.info-box {
+  background-color: #F5F5F5;
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+footer {
+  background-color: #0A437C;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px;
+  font-size: 0.9rem;
+}
